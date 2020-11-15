@@ -1,0 +1,9 @@
+[
+  {
+    "name": "automactc",
+    "commands": [
+      "git clone https://github.com/CrowdStrike/automactc.git ./submodules/automactc",
+      "cd ./submodules/automactc && git checkout 5ff9746"
+    ]
+  }
+]

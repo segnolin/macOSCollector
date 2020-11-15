@@ -1,0 +1,6 @@
+artifacts/*
+reports/*
+submodules/*
+*.pyc
+*.swp
+.DS_Store

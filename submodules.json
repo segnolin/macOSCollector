@@ -1,0 +1,10 @@
+[
+  {
+    "name": "automactc",
+    "commands": [
+      "sudo /usr/bin/python ./submodules/automactc/automactc.py -x dirlist quicklook safari -fmt json -o ./artifacts/automactc",
+      "sudo tar -C ./artifacts/automactc -xvzf ./artifacts/automactc/*.tar.gz",
+      "sudo rm ./artifacts/automactc/*.tar.gz"
+      ]
+  }
+]
